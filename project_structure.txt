@@ -1,0 +1,225 @@
+列出資料夾 PATH
+磁碟區序號為 7235-F6B0
+C:.
+|   .classpath
+|   .factorypath
+|   .project
+|   HELP.md
+|   mvnw
+|   mvnw.cmd
+|   pom.xml
+|   project_structure.txt
+|   
++---.mvn
+|   \---wrapper
+|           maven-wrapper.properties
+|           
++---.settings
+|       org.eclipse.core.resources.prefs
+|       org.eclipse.jdt.apt.core.prefs
+|       org.eclipse.jdt.core.prefs
+|       org.eclipse.m2e.core.prefs
+|       org.springframework.ide.eclipse.prefs
+|       
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---example
+|   |   |           \---demo
+|   |   |               |   SpringbootCarBackendApplication.java
+|   |   |               |   
+|   |   |               \---cart
+|   |   |                   +---config
+|   |   |                   |       AppConfig.java
+|   |   |                   |       
+|   |   |                   +---controller
+|   |   |                   |       AuthController.java
+|   |   |                   |       CaptchaController.java
+|   |   |                   |       FavoriteController.java
+|   |   |                   |       OrderController.java
+|   |   |                   |       ProductController.java
+|   |   |                   |       WEB_API.txt
+|   |   |                   |       
+|   |   |                   +---exception
+|   |   |                   |       AddException.java
+|   |   |                   |       LoginException.java
+|   |   |                   |       OrderItemEmptyException.java
+|   |   |                   |       ProductNotFoundException.java
+|   |   |                   |       UserNotFoundException.java
+|   |   |                   |       
+|   |   |                   +---model
+|   |   |                   |   +---dto
+|   |   |                   |   |       FavoriteProductDTO.java
+|   |   |                   |   |       FavoriteUserDTO.java
+|   |   |                   |   |       LoginDTO.java
+|   |   |                   |   |       OrderDTO.java
+|   |   |                   |   |       OrderItemDTO.java
+|   |   |                   |   |       ProductDTO.java
+|   |   |                   |   |       UserDTO.java
+|   |   |                   |   |       
+|   |   |                   |   \---entity
+|   |   |                   |           Order.java
+|   |   |                   |           OrderItem.java
+|   |   |                   |           Product.java
+|   |   |                   |           ProductImage.java
+|   |   |                   |           User.java
+|   |   |                   |           
+|   |   |                   +---repository
+|   |   |                   |       OrderItemRepository.java
+|   |   |                   |       OrderRepository.java
+|   |   |                   |       ProductImageRepository.java
+|   |   |                   |       ProductRepository.java
+|   |   |                   |       UserRepository.java
+|   |   |                   |       
+|   |   |                   +---response
+|   |   |                   |       ApiResponse.java
+|   |   |                   |       
+|   |   |                   +---security
+|   |   |                   |       CaptchaFilter.java
+|   |   |                   |       CustomUserDetailsService.java
+|   |   |                   |       SecurityConfig.java
+|   |   |                   |       
+|   |   |                   \---service
+|   |   |                       |   OrderService.java
+|   |   |                       |   ProductService.java
+|   |   |                       |   UserService.java
+|   |   |                       |   
+|   |   |                       \---Impl
+|   |   |                               OrderServiceImpl.java
+|   |   |                               ProductServiceImpl.java
+|   |   |                               UserServiceImpl.java
+|   |   |                               
+|   |   \---resources
+|   |           application.properties
+|   |           
+|   \---test
+|       \---java
+|           \---com
+|               \---example
+|                   \---demo
+|                       |   SpringbootCarBackendApplicationTests.java
+|                       |   
+|                       \---test
+|                           +---favorite
+|                           |       AddFavorite.java
+|                           |       
+|                           +---order
+|                           |       AddOrder.java
+|                           |       
+|                           +---product
+|                           |       AddProduct.java
+|                           |       
+|                           \---user
+|                                   AddUser.java
+|                                   DeleteUser.java
+|                                   findUser.java
+|                                   UpdateUser.java
+|                                   UpdateUser2.java
+|                                   
+\---target
+    +---classes
+    |   |   application.properties
+    |   |   
+    |   +---com
+    |   |   \---example
+    |   |       \---demo
+    |   |           |   SpringbootCarBackendApplication.class
+    |   |           |   
+    |   |           \---cart
+    |   |               +---config
+    |   |               |       AppConfig.class
+    |   |               |       
+    |   |               +---controller
+    |   |               |       AuthController.class
+    |   |               |       CaptchaController.class
+    |   |               |       FavoriteController.class
+    |   |               |       OrderController.class
+    |   |               |       ProductController.class
+    |   |               |       WEB_API.txt
+    |   |               |       
+    |   |               +---exception
+    |   |               |       AddException.class
+    |   |               |       LoginException.class
+    |   |               |       OrderItemEmptyException.class
+    |   |               |       ProductNotFoundException.class
+    |   |               |       UserNotFoundException.class
+    |   |               |       
+    |   |               +---model
+    |   |               |   +---dto
+    |   |               |   |       FavoriteProductDTO.class
+    |   |               |   |       FavoriteUserDTO.class
+    |   |               |   |       LoginDTO.class
+    |   |               |   |       OrderDTO.class
+    |   |               |   |       OrderItemDTO.class
+    |   |               |   |       ProductDTO.class
+    |   |               |   |       UserDTO.class
+    |   |               |   |       
+    |   |               |   \---entity
+    |   |               |           Order.class
+    |   |               |           OrderItem.class
+    |   |               |           Product.class
+    |   |               |           ProductImage.class
+    |   |               |           User.class
+    |   |               |           
+    |   |               +---repository
+    |   |               |       OrderItemRepository.class
+    |   |               |       OrderRepository.class
+    |   |               |       ProductImageRepository.class
+    |   |               |       ProductRepository.class
+    |   |               |       UserRepository.class
+    |   |               |       
+    |   |               +---response
+    |   |               |       ApiResponse.class
+    |   |               |       
+    |   |               +---security
+    |   |               |       CaptchaFilter.class
+    |   |               |       CustomUserDetailsService.class
+    |   |               |       SecurityConfig.class
+    |   |               |       
+    |   |               \---service
+    |   |                   |   OrderService.class
+    |   |                   |   ProductService.class
+    |   |                   |   UserService.class
+    |   |                   |   
+    |   |                   \---Impl
+    |   |                           OrderServiceImpl.class
+    |   |                           ProductServiceImpl.class
+    |   |                           UserServiceImpl.class
+    |   |                           
+    |   \---META-INF
+    |       |   MANIFEST.MF
+    |       |   
+    |       \---maven
+    |           \---com.example
+    |               \---springboot-car-backend
+    |                       pom.properties
+    |                       pom.xml
+    |                       
+    +---generated-sources
+    |   \---annotations
+    +---generated-test-sources
+    |   \---test-annotations
+    \---test-classes
+        \---com
+            \---example
+                \---demo
+                    |   SpringbootCarBackendApplicationTests.class
+                    |   
+                    \---test
+                        +---favorite
+                        |       AddFavorite.class
+                        |       
+                        +---order
+                        |       AddOrder.class
+                        |       
+                        +---product
+                        |       AddProduct.class
+                        |       
+                        \---user
+                                AddUser.class
+                                DeleteUser.class
+                                findUser.class
+                                UpdateUser.class
+                                UpdateUser2.class
+                                
